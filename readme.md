@@ -78,6 +78,8 @@ pip install -r requirements.txt
     2. A frase de teste em português é submetida ao tokenizador.
     3. Uma lista de stop-words nativa do idioma português é carregada e convertida em um conjunto (`set`) para otimizar a busca computacional.
     4. O script percorre os tokens gerados, remove termos irrelevantes usando normalização em caixa baixa (`.lower()`) e exibe o comparativo diretamente no terminal.
+    <img width="1299" height="945" alt="image" src="https://github.com/user-attachments/assets/130fecd7-3313-40df-a38f-00703c00839f" />
+
 
 
 ### 2. Visão Computacional: Segmentação e Detecção (`segmentacao.py`)
@@ -96,6 +98,8 @@ pip install -r requirements.txt
     2. Lê, trata e aplica o fluxo sequencial de transformações (Cinza -> Blur -> Otsu).
     3. Localiza os contornos, avalia as métricas geométricas e renderiza as anotações visuais sobre a matriz da imagem original.
     4. Gera um painel comparativo tripartite (Imagem Original, Máscara de Otsu e Resultado Final Anotado) e salva o resultado fisicamente como um arquivo de imagem.
+    <img width="1299" height="945" alt="image" src="https://github.com/user-attachments/assets/1939d06e-3619-4e15-bf83-270f54c672a0" />
+
 
 ---
 
